@@ -3,7 +3,7 @@ const global = [];
 const goodmorning = {
     reply: [
         "Günaydınnnnnnnnnnn!",
-        "Yuh aq bu ne uykusu",
+        "Yuh bu ne uykusu",
         "Sanada good morning."
     ],
     match: 'günaydın|ayılamadım|morning|dia|morgen|gunaydin'
@@ -13,7 +13,7 @@ const coronavirus = {
         reply:  [
             "Yalvaralım mı abi? Evde kal sende!",
             "Maske önemli. At yemliği gibi ama takıcan yapacak bir şey yok!",
-            "Panik yapma aq, korona morona yok bende!",
+            "Panik yapma, korona morona yok bende!",
             "Nerede o ispanyol gribi zamanları..."
         ],
         match: 'corona|covid|virus|korona'
@@ -23,7 +23,7 @@ const sayhi = {
     reply:  [
         "Sana da selam!",
         "Aleyküm selam müdür.",
-        "Geldi yine tipini siktiğim...",
+        "Geldi yine tipini sevdiğim...",
         "Tamam beyler konuyu değiştirin %s geldi",
         "Ooooooooo %s beylerde buradaymış.",
         "Senden naber?"
@@ -33,7 +33,7 @@ const sayhi = {
 
 const ozele = {
     reply:  [
-        "Hayırdır gizliniz ne var?",
+        "Hayırdır gizliniz mi var?",
         "Böyle bişi yok..."
     ],
     match: 'özele|gelgel|'
@@ -51,15 +51,6 @@ const howareyou = {
     match: 'nasılsın|naber|nasilsin|iyimi|nasil'
 }
 
-const abuse = {
-    reply: [
-        "Bilmukabele",
-        "Ben bu %s|ek amına korum... Sen kime küfrediyorsun!",
-        "He canım he"
-    ],
-    match: 'aq|soktuğum|göt|sikik|ibne'
-}
-
 const busuo = {
     reply: [
         "Bu dediğin ben miyim?"
@@ -69,7 +60,7 @@ const busuo = {
 
 const bot = {
     reply: [
-        "Ne var aq bot bot kıçını yırtıyorsun?",
+        "Ne var arkadaşım bot bot diye yırtıyorsun?",
         "Bot babandır!",
         "Canım ya kıyamam!!",
         "Bana bot deyince kalbimi kırıyorsun.. :("
